@@ -1,1 +1,10 @@
 venv/
+.DS_Store
+__pycache__
+.env
+.idea/
+.cache-aglalit
+crawlers/vk/DATA
+crawlers/vk/response.json
+downloads/
+samples/

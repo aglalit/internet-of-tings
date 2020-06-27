@@ -1,0 +1,7 @@
+fs
+flask
+redis
+numpy
+essentia
+librosa
+pydub
