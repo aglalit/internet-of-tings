@@ -1,6 +1,6 @@
 import redis
 from flask import Flask
-from MIR import essentia_main
+from MIR import essentia_mixed_beats
 import os
 import fs
 import fs.copy
@@ -24,4 +24,4 @@ cache = redis.Redis(host='redis', port=6379)
 
 @app.route('/')
 def hello():
-    return essentia_main.test()
+    return essentia_mixed_beats.test()
